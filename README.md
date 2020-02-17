@@ -1,2 +1,0 @@
-# calc
-My personal repository
