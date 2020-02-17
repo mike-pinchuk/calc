@@ -1,0 +1,59 @@
+body {
+    background-color: #F08080;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    text-align: center;
+    margin-top: 60px;
+}
+.conteiner {
+    border: 1px solid black;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    height: 400px;
+    width: 300px;
+    margin: auto;
+    border-radius: 5px;
+    background-color: rgb(201, 197, 197);
+}
+
+.header {
+    border-bottom: 1px solid black;
+    height: 70px;
+    text-align: center;
+}
+
+.screen {
+    width: 250px;
+    height: 50px;
+    margin-top: 5px;
+    font-size: 32px;
+    text-align: right;
+    
+}
+
+.console_panel {
+    display: grid;
+    grid-template-columns: 65px 65px 65px 65px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    padding: 5px;
+    
+}
+
+button {
+    height: 50px;
+    margin-top: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);   
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgba(220, 20, 60, 0.6);
+}
+
+#zero {
+    grid-column: 3 / 1;
+}
+
+
+
